@@ -1,0 +1,26 @@
+{
+  "name": "ts-def-parser",
+  "version": "1.0.0",
+  "description": "Utility program that creates typescript definitions for SapUI5",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/maylukas/sapui5-typescript-definition-generator.git"
+  },
+  "keywords": [
+    "sapui5",
+    "typescript",
+    "definitions",
+    "ui5"
+  ],
+  "author": "Lukas May <lukas.may@dscsag.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maylukas/sapui5-typescript-definition-generator/issues"
+  },
+  "homepage": "https://github.com/maylukas/sapui5-typescript-definition-generator#readme",
+  "dependencies": {}
+}

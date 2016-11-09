@@ -1,0 +1,416 @@
+[  
+   {  
+      "methodName":"setValue",
+      "applicableReturnTypes":[  
+         "sap.m.InputBase",
+         "sap.m.Input"
+      ],
+      "applicableSignatures":[  
+         "sValue: string"
+      ],
+      "usedReturnType":"sap.m.InputBase",
+      "usedSignature":"sValue: string"
+   },
+   {  
+      "methodName":"parseValue",
+      "applicableReturnTypes":[  
+         "any",
+         "any[]"
+      ],
+      "applicableSignatures":[  
+         "oValue: any, sInternalType: string, aCurrentValues: any[]",
+         "oValue: any, sInternalType: string"
+      ],
+      "usedReturnType":"any",
+      "usedSignature":"oValue: any, sInternalType: string, aCurrentValues?: any[]"
+   },
+   {  
+      "methodName":"getControlMessages",
+      "applicableSignatures":[  
+         "the: sap.ui.core.Message[]",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.model.DataState",
+         "sap.ui.core.Message[]"
+      ],
+      "usedReturnType":"sap.ui.model.DataState|sap.ui.core.Message[]",
+      "usedSignature":"the?: sap.ui.core.Message[]"
+   },
+   {  
+      "methodName":"hasChildren",
+      "applicableSignatures":[  
+         "oContext: Context, mParameters: any",
+         "oContext: any"
+      ],
+      "applicableReturnTypes":[  
+         "boolean"
+      ],
+      "usedReturnType":"boolean",
+      "usedSignature":"oContext: Context, mParameters?: any"
+   },
+   {  
+      "methodName":"parse",
+      "applicableSignatures":[  
+         "",
+         "oResponse: any, oRequest: any, mGetEntities: any, mChangeEntities: any"
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedReturnType":"void",
+      "usedSignature":"oResponse?: any, oRequest?: any, mGetEntities?: any, mChangeEntities?: any"
+   },
+   {  
+      "methodName":"getNodeContexts",
+      "applicableSignatures":[  
+         "oContext: sap.ui.model.Context, iStartIndex: number, iLength: number, iThreshold: number",
+         "oContext: any, iStartIndex: number, iLength: number",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "any[]",
+         "sap.ui.model.Context[]",
+         "void"
+      ],
+      "usedReturnType":"any[]",
+      "usedSignature":"oContext: any, iStartIndex: number, iLength: number, iThreshold?: number"
+   },
+   {  
+      "methodName":"parseValue",
+      "applicableSignatures":[  
+         "sValue: string, sSourceType: string"
+      ],
+      "applicableReturnTypes":[  
+         "Date",
+         "Date|string"
+      ],
+      "usedReturnType":"Date|string",
+      "usedSignature":"sValue: string, sSourceType: string"
+   },
+   {  
+      "methodName":"isInitial",
+      "applicableSignatures":[  
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "void",
+         "boolean"
+      ],
+      "usedSignature":"",
+      "usedReturnType":"boolean"
+   },
+   {  
+      "methodName":"filter",
+      "applicableSignatures":[  
+         "aFilters: sap.ui.model.Filter[]|sap.ui.model.odata.Filter[], sFilterType: typeof sap.ui.model.FilterType",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "void",
+         "sap.ui.model.ListBinding"
+      ],
+      "usedReturnType":"sap.ui.model.ListBinding",
+      "usedSignature":"aFilters: sap.ui.model.Filter[]|sap.ui.model.odata.Filter[], sFilterType: typeof sap.ui.model.FilterType"
+   },
+   {  
+      "methodName":"bindTree",
+      "applicableSignatures":[  
+         "sPath: string, oContext?: any, aFilters?: any[], mParameters?: any, aSorters?: any[]",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.model.TreeBinding",
+         "void"
+      ],
+      "usedReturnType":"sap.ui.model.TreeBinding",
+      "usedSignature":"sPath: string, oContext?: any, aFilters?: any[], mParameters?: any, aSorters?: any[]"
+   },
+   {  
+      "methodName":"bindContext",
+      "applicableSignatures":[  
+         "sPath: string|any, oContext?: any, mParameters?: any, oEvents?: any",
+         "sPath: string, oContext?: sap.ui.model.Context, mParameters?: any"
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.model.ContextBinding",
+         "sap.ui.model.odata.v4.ODataContextBinding"
+      ],
+      "usedReturnType":"sap.ui.model.ContextBinding",
+      "usedSignature":"sPath: string|any, oContext?: any, mParameters?: any, oEvents?: any"
+   },
+   {  
+      "methodName":"refresh",
+      "applicableSignatures":[  
+         "sGroupId: string",
+         "bForceUpdate: boolean"
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedSignature":"sGroupIdOrForceUpdate: string|boolean",
+      "usedReturnType":"void"
+   },
+   {  
+      "methodName":"getCurrentContexts",
+      "applicableSignatures":[  
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "void",
+         "sap.ui.model.Context[]"
+      ],
+      "usedSignature":"",
+      "usedReturnType":"sap.ui.model.Context[]"
+   },
+   {  
+      "methodName":"bindList",
+      "applicableSignatures":[  
+         "sPath: string, oContext?: sap.ui.model.Context, aSorters?: sap.ui.model.Sorter[], aFilters?: sap.ui.model.Filter[], mParameters?: any",
+         "sPath: string, oContext?: any, aSorters?: sap.ui.model.Sorter, aFilters?: any[], mParameters?: any"
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.model.odata.v4.ODataListBinding",
+         "sap.ui.model.ListBinding"
+      ],
+      "usedSignature":"sPath: string, oContext?: sap.ui.model.Context, aSorters?: sap.ui.model.Sorter[], aFilters?: sap.ui.model.Filter[], mParameters?: any",
+      "usedReturnType":"sap.ui.model.ListBinding"
+   },
+   {  
+      "methodName":"getDistinctValues",
+      "applicableSignatures":[  
+         "sPath: string",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "void",
+         "any[]"
+      ],
+      "usedReturnType":"any[]",
+      "usedSignature":"sPath?: string"
+   },
+   {  
+      "methodName":"createBindingContext",
+      "applicableSignatures":[  
+         "sPath: string, oContext?: any, mParameters?: any, fnCallBack?: any, bReload?: boolean",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "void",
+         "sap.ui.model.Context"
+      ],
+      "usedSignature":"sPath: string, oContext?: any,  mParameters?: any, fnCallBack?: any, bReload?: boolean",
+      "usedReturnType":"sap.ui.model.Context"
+   },
+   {  
+      "methodName":"sort",
+      "applicableSignatures":[  
+         "aSorters: sap.ui.model.Sorter[]|sap.ui.model.Sorter",
+         "aSorters: sap.ui.model.Sorter|any[]",
+         "aSorter: sap.ui.model.Sorter|any[]",
+         "aSorters: sap.ui.model.Sorter[]",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.model.odata.v2.ODataTreeBinding",
+         "sap.ui.model.ListBinding",
+         "sap.ui.model.analytics.AnalyticalBinding",
+         "void"
+      ],
+      "usedReturnType":"sap.ui.model.ListBinding|void",
+      "usedSignature":"aSorters: sap.ui.model.Sorter[]|sap.ui.model.Sorter"
+   },
+   {  
+      "methodName":"destroy",
+      "applicableSignatures":[  
+         "bSuppressInvalidate: boolean",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedReturnType":"void",
+      "usedSignature":"bSuppressInvalidate: boolean"
+   },
+   {  
+      "methodName":"getInterface",
+      "applicableSignatures":[  
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "any",
+         "void",
+         "sap.ui.base.Interface"
+      ],
+      "usedReturnType":"sap.ui.base.Interface",
+      "usedSignature":""
+   },
+   {  
+      "methodName":"getMetadata",
+      "applicableSignatures":[  
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.base.Metadata",
+         "sap.ui.core.ComponentMetadata"
+      ],
+      "usedReturnType":"sap.ui.base.Metadata",
+      "usedSignature":""
+   },
+   {  
+      "methodName":"clone",
+      "applicableSignatures":[  
+         "sIdSuffix: string, aLocalIds?: string[]"
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.base.ManagedObject",
+         "sap.ui.core.Element"
+      ],
+      "usedReturnType":"sap.ui.base.ManagedObject",
+      "usedSignature":"sIdSuffix: string, aLocalIds?: string[]"
+   },
+   {  
+      "methodName":"getEventingParent",
+      "applicableSignatures":[  
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "void",
+         "sap.ui.base.EventProvider"
+      ],
+      "usedReturnType":"sap.ui.base.EventProvider",
+      "usedSignature":""
+   },
+   {  
+      "methodName":"invalidate",
+      "applicableSignatures":[  
+         "",
+         "oOrigin: any"
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedReturnType":"void",
+      "usedSignature":"oOrigin?: any"
+   },
+   {  
+      "methodName":"registerPreprocessor",
+      "applicableSignatures":[  
+         "sType: string, vPreprocessor: string|any, sViewType: string, bSyncSupport: boolean, bOnDemand?: boolean, mSettings?: any",
+         "sType: string|sap.ui.core.mvc.XMLView.PreprocessorType, vPreprocessor: string|any, bSyncSupport: boolean, bOnDemand?: boolean, mSettings?: any"
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedReturnType":"void",
+      "usedSignature":"sType: string|sap.ui.core.mvc.XMLView.PreprocessorType, vPreprocessor: string|any, bSyncSupport: boolean, bOnDemand?: boolean, mSettings?: any"
+   },
+   {  
+      "methodName":"addStyleClass",
+      "applicableSignatures":[  
+         "sStyleClass: string",
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "sap.ui.core.Control",
+         "sap.m.SelectDialog",
+         "sap.m.TableSelectDialog",
+         "sap.m.ViewSettingsDialog"
+      ],
+      "usedReturnType":"__returnValue__",
+      "usedSignature":""
+   },
+   {  
+      "methodName":"insertItem",
+      "applicableSignatures":[  
+         "iIndex: number, oItem: sap.m.P13nItem"
+      ],
+      "applicableReturnTypes":[  
+         "sap.m.P13nColumnsPanel"
+      ],
+      "usedReturnType":"sap.m.P13nColumnsPanel",
+      "usedSignature":"oItem: sap.m.P13nItem, iIndex: number"
+   },
+   {  
+      "methodName":"setMode",
+      "applicableSignatures":[  
+         "mode: sap.m.ListMode"
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedReturnType":"any",
+      "usedSignature":"mode: sap.m.ListMode"
+   },
+   {  
+      "methodName":"setWidth",
+      "applicableSignatures":[  
+         "sWidth: string"
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedReturnType":"any",
+      "usedSignature":"sWidth: string"
+   },
+   {  
+      "methodName":"selectText",
+      "applicableSignatures":[  
+         "iSelectionStart: number, iSelectionEnd: number"
+      ],
+      "applicableReturnTypes":[  
+         "void"
+      ],
+      "usedReturnType":"any",
+      "usedSignature":"iSelectionStart: number, iSelectionEnd: number"
+   },
+   {  
+      "methodName":"destroyItems",
+      "applicableSignatures":[  
+         ""
+      ],
+      "applicableReturnTypes":[  
+         "sap.m.MultiComboBox",
+         "sap.m.ComboBox"
+      ],
+      "usedReturnType":"sap.m.ComboBoxBase",
+      "usedSignature":""
+   },
+   {  
+      "methodName":"displayDate",
+      "applicableReturnTypes":[  
+         "sap.ui.unified.calendar.DatesRow",
+         "sap.ui.unified.calendar.Month"
+      ],
+      "applicableSignatures":[  
+         "oDate: any"
+      ],
+      "usedReturnType":"sap.ui.unified.calendar.Month",
+      "usedSignature":"oDate: any"
+   },
+   {  
+      "methodName":"setFirstDayOfWeek",
+      "applicableReturnTypes":[  
+         "void",
+         "sap.ui.unified.calendar.Month",
+         "typeof sap.ui.unified.Calendar"
+      ],
+      "applicableSignatures":[  
+         "iFirstDayOfWeek: number"
+      ],
+      "usedReturnType":"void",
+      "usedSignature":"iFirstDayOfWeek: number"
+   },
+   {  
+      "methodName":"setMonths",
+      "applicableReturnTypes":[  
+         "void",
+         "typeof sap.ui.unified.Calendar"
+      ],
+      "applicableSignatures":[  
+         "iMonths: number"
+      ],
+      "usedReturnType":"void",
+      "usedSignature":"iMonths: number"
+   }
+]
